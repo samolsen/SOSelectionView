@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54DA84A144B860200E75A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54DA849144B860200E75A25 /* UIKit.framework */; };
+		A54DA84C144B860200E75A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54DA84B144B860200E75A25 /* Foundation.framework */; };
+		A54DA84E144B860200E75A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54DA84D144B860200E75A25 /* CoreGraphics.framework */; };
+		A54DA854144B860200E75A25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A54DA852144B860200E75A25 /* InfoPlist.strings */; };
+		A54DA856144B860200E75A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DA855144B860200E75A25 /* main.m */; };
+		A54DA85A144B860200E75A25 /* SOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DA859144B860200E75A25 /* SOAppDelegate.m */; };
+		A54DA85D144B860200E75A25 /* SOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DA85C144B860200E75A25 /* SOViewController.m */; };
+		A54DA860144B860200E75A25 /* SOViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54DA85E144B860200E75A25 /* SOViewController_iPhone.xib */; };
+		A54DA863144B860200E75A25 /* SOViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54DA861144B860200E75A25 /* SOViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A54DA845144B860200E75A25 /* SOSelectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOSelectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54DA849144B860200E75A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A54DA84B144B860200E75A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A54DA84D144B860200E75A25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A54DA851144B860200E75A25 /* SOSelectionView-Info.plist */ = {isa = PBXFileReference; path = "SOSelectionView-Info.plist"; sourceTree = "<group>"; };
+		A54DA853144B860200E75A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A54DA855144B860200E75A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54DA857144B860200E75A25 /* SOSelectionView-Prefix.pch */ = {isa = PBXFileReference; path = "SOSelectionView-Prefix.pch"; sourceTree = "<group>"; };
+		A54DA858144B860200E75A25 /* SOAppDelegate.h */ = {isa = PBXFileReference; path = SOAppDelegate.h; sourceTree = "<group>"; };
+		A54DA859144B860200E75A25 /* SOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOAppDelegate.m; sourceTree = "<group>"; };
+		A54DA85B144B860200E75A25 /* SOViewController.h */ = {isa = PBXFileReference; path = SOViewController.h; sourceTree = "<group>"; };
+		A54DA85C144B860200E75A25 /* SOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOViewController.m; sourceTree = "<group>"; };
+		A54DA85F144B860200E75A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SOViewController_iPhone.xib; sourceTree = "<group>"; };
+		A54DA862144B860200E75A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SOViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54DA842144B860200E75A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54DA84A144B860200E75A25 /* UIKit.framework in Frameworks */,
+				A54DA84C144B860200E75A25 /* Foundation.framework in Frameworks */,
+				A54DA84E144B860200E75A25 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54DA83A144B860200E75A25 = {
+			isa = PBXGroup;
+			children = (
+				A54DA84F144B860200E75A25 /* SOSelectionView */,
+				A54DA848144B860200E75A25 /* Frameworks */,
+				A54DA846144B860200E75A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54DA846144B860200E75A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54DA845144B860200E75A25 /* SOSelectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54DA848144B860200E75A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A54DA849144B860200E75A25 /* UIKit.framework */,
+				A54DA84B144B860200E75A25 /* Foundation.framework */,
+				A54DA84D144B860200E75A25 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54DA84F144B860200E75A25 /* SOSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A54DA858144B860200E75A25 /* SOAppDelegate.h */,
+				A54DA859144B860200E75A25 /* SOAppDelegate.m */,
+				A54DA85B144B860200E75A25 /* SOViewController.h */,
+				A54DA85C144B860200E75A25 /* SOViewController.m */,
+				A54DA85E144B860200E75A25 /* SOViewController_iPhone.xib */,
+				A54DA861144B860200E75A25 /* SOViewController_iPad.xib */,
+				A54DA850144B860200E75A25 /* Supporting Files */,
+			);
+			path = SOSelectionView;
+			sourceTree = "<group>";
+		};
+		A54DA850144B860200E75A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54DA851144B860200E75A25 /* SOSelectionView-Info.plist */,
+				A54DA852144B860200E75A25 /* InfoPlist.strings */,
+				A54DA855144B860200E75A25 /* main.m */,
+				A54DA857144B860200E75A25 /* SOSelectionView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54DA844144B860200E75A25 /* SOSelectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54DA866144B860200E75A25 /* Build configuration list for PBXNativeTarget "SOSelectionView" */;
+			buildPhases = (
+				A54DA841144B860200E75A25 /* Sources */,
+				A54DA842144B860200E75A25 /* Frameworks */,
+				A54DA843144B860200E75A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOSelectionView;
+			productName = SOSelectionView;
+			productReference = A54DA845144B860200E75A25 /* SOSelectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54DA83C144B860200E75A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A54DA83F144B860200E75A25 /* Build configuration list for PBXProject "SOSelectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A54DA83A144B860200E75A25;
+			productRefGroup = A54DA846144B860200E75A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54DA844144B860200E75A25 /* SOSelectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54DA843144B860200E75A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54DA854144B860200E75A25 /* InfoPlist.strings in Resources */,
+				A54DA860144B860200E75A25 /* SOViewController_iPhone.xib in Resources */,
+				A54DA863144B860200E75A25 /* SOViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54DA841144B860200E75A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54DA856144B860200E75A25 /* main.m in Sources */,
+				A54DA85A144B860200E75A25 /* SOAppDelegate.m in Sources */,
+				A54DA85D144B860200E75A25 /* SOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A54DA852144B860200E75A25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54DA853144B860200E75A25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A54DA85E144B860200E75A25 /* SOViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54DA85F144B860200E75A25 /* en */,
+			);
+			name = SOViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A54DA861144B860200E75A25 /* SOViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54DA862144B860200E75A25 /* en */,
+			);
+			name = SOViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54DA864144B860200E75A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A54DA865144B860200E75A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54DA867144B860200E75A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOSelectionView/SOSelectionView-Prefix.pch";
+				INFOPLIST_FILE = "SOSelectionView/SOSelectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A54DA868144B860200E75A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOSelectionView/SOSelectionView-Prefix.pch";
+				INFOPLIST_FILE = "SOSelectionView/SOSelectionView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54DA83F144B860200E75A25 /* Build configuration list for PBXProject "SOSelectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54DA864144B860200E75A25 /* Debug */,
+				A54DA865144B860200E75A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54DA866144B860200E75A25 /* Build configuration list for PBXNativeTarget "SOSelectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54DA867144B860200E75A25 /* Debug */,
+				A54DA868144B860200E75A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54DA83C144B860200E75A25 /* Project object */;
+}
