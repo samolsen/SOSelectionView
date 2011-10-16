@@ -16,6 +16,7 @@
 		A54DA85D144B860200E75A25 /* SOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DA85C144B860200E75A25 /* SOViewController.m */; };
 		A54DA860144B860200E75A25 /* SOViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54DA85E144B860200E75A25 /* SOViewController_iPhone.xib */; };
 		A54DA863144B860200E75A25 /* SOViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54DA861144B860200E75A25 /* SOViewController_iPad.xib */; };
+		A54DA86B144B863400E75A25 /* SOSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DA86A144B863400E75A25 /* SOSelectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		A54DA849144B860200E75A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A54DA84B144B860200E75A25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A54DA84D144B860200E75A25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A54DA851144B860200E75A25 /* SOSelectionView-Info.plist */ = {isa = PBXFileReference; path = "SOSelectionView-Info.plist"; sourceTree = "<group>"; };
+		A54DA851144B860200E75A25 /* SOSelectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOSelectionView-Info.plist"; sourceTree = "<group>"; };
 		A54DA853144B860200E75A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A54DA855144B860200E75A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A54DA857144B860200E75A25 /* SOSelectionView-Prefix.pch */ = {isa = PBXFileReference; path = "SOSelectionView-Prefix.pch"; sourceTree = "<group>"; };
-		A54DA858144B860200E75A25 /* SOAppDelegate.h */ = {isa = PBXFileReference; path = SOAppDelegate.h; sourceTree = "<group>"; };
+		A54DA857144B860200E75A25 /* SOSelectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOSelectionView-Prefix.pch"; sourceTree = "<group>"; };
+		A54DA858144B860200E75A25 /* SOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOAppDelegate.h; sourceTree = "<group>"; };
 		A54DA859144B860200E75A25 /* SOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOAppDelegate.m; sourceTree = "<group>"; };
-		A54DA85B144B860200E75A25 /* SOViewController.h */ = {isa = PBXFileReference; path = SOViewController.h; sourceTree = "<group>"; };
+		A54DA85B144B860200E75A25 /* SOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOViewController.h; sourceTree = "<group>"; };
 		A54DA85C144B860200E75A25 /* SOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOViewController.m; sourceTree = "<group>"; };
 		A54DA85F144B860200E75A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SOViewController_iPhone.xib; sourceTree = "<group>"; };
 		A54DA862144B860200E75A25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SOViewController_iPad.xib; sourceTree = "<group>"; };
+		A54DA869144B863400E75A25 /* SOSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOSelectionView.h; sourceTree = "<group>"; };
+		A54DA86A144B863400E75A25 /* SOSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOSelectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,8 @@
 		A54DA83A144B860200E75A25 = {
 			isa = PBXGroup;
 			children = (
+				A54DA869144B863400E75A25 /* SOSelectionView.h */,
+				A54DA86A144B863400E75A25 /* SOSelectionView.m */,
 				A54DA84F144B860200E75A25 /* SOSelectionView */,
 				A54DA848144B860200E75A25 /* Frameworks */,
 				A54DA846144B860200E75A25 /* Products */,
@@ -167,6 +172,7 @@
 				A54DA856144B860200E75A25 /* main.m in Sources */,
 				A54DA85A144B860200E75A25 /* SOAppDelegate.m in Sources */,
 				A54DA85D144B860200E75A25 /* SOViewController.m in Sources */,
+				A54DA86B144B863400E75A25 /* SOSelectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

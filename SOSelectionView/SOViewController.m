@@ -8,6 +8,11 @@
 
 #import "SOViewController.h"
 
+#import "SOSelectionView.h"
+
+@interface SOViewController() <SOSelectionViewDataSource>
+@end
+
 @implementation SOViewController
 
 - (void)didReceiveMemoryWarning
@@ -16,12 +21,35 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+static NSArray * selectionStrings = nil;
+
++ (NSArray *)selectionStrings
+{
+    if (!selectionStrings)
+    {
+        selectionStrings = [[NSArray alloc] initWithObjects:
+                            @"Zero",
+                            @"One",
+                            @"Two",
+                            @"Three",
+                            @"Four",
+                            @"Five",
+                            nil];
+    }
+
+    return selectionStrings;
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    CGRect frame = CGRectMake(0, 0, self.view.bounds.size.width, 50.0);
+    SOSelectionView * selectionView = [[SOSelectionView alloc] initWithFrame:frame];
+    selectionView.dataSource = self;
+    [self.view addSubview:selectionView];
 }
 
 - (void)viewDidUnload
@@ -59,6 +87,18 @@
     } else {
         return YES;
     }
+}
+
+#pragma mark - SOSelectionViewDataSource
+
+- (NSUInteger)selectionViewItemCount:(SOSelectionView *)selectionView
+{
+    return [[SOViewController selectionStrings] count];
+}
+
+- (NSString *)selectionView:(SOSelectionView *)selectionView textAtPosition:(NSUInteger)position
+{
+    return [[SOViewController selectionStrings] objectAtIndex:position];
 }
 
 @end
